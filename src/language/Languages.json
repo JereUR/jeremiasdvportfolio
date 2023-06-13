@@ -1,0 +1,144 @@
+{
+  "english": {
+    "select": "EN",
+    "navbar": {
+      "home": "Home",
+      "skills": "Skills",
+      "projects": "Works/Projects",
+      "myCV": "My Curriculum Vitae"
+    },
+    "banner": {
+      "welcome": "Welcome to my Portfolio",
+      "hello": "Hi I'm Jeremías Dominguez Vega",
+      "presentation": "I am a proactive, organized and responsible person, with good interpersonal relationships. I always have the best disposition to carry out my work. I am looking for a position where I can display all my acquired knowledge, as well as continue learning in the area and gain experience."
+    },
+    "skills": {
+      "title": "Skills",
+      "introduction": "My skills as a web developer include a solid understanding of HTML, CSS, and JavaScript, experience with responsive websites, and familiarity with frameworks like React and React Native. I am a passionate problem solver and am always looking for opportunities to grow and learn."
+    },
+    "projects": {
+      "title": "Works/Projects",
+      "introduction": "Allow me to present you a sample of my works, projects and other practices. In my career, I have developed web applications such as Milenium Gym, which offers user management, routines and nutritional plans. I have also updated the web design of Palomba Real Estate in WordPress. Also, I have worked on Handshape Dataset, a library for sign language image processing. In the field of projects, I highlight WhatToWatch, a web app to search for movies and series based on the IMDB database. I have also done various practices in my Github repository, using frameworks and languages ​​like React.Js, Node.Js and Javascript. Explore and discover more about my work!",
+      "tabOne": "Works",
+      "tabTwo": "Projects",
+      "tabThree": "Other Practices",
+      "works": [
+        {
+          "title1": "Milenium Gym",
+          "description1": "Web app development for managing gym users. It allows adding routines and nutritional plans to users subscribed to it, as well as notifying them of their next payment."
+        },
+        {
+          "title2": "Palomba Bienes Raices",
+          "description2": "WordPress web design update from Figma template."
+        },
+        {
+          "title3": "Handshape Dataset",
+          "description3": "Logic and library programming for handling different sign language images countries."
+        }
+      ],
+      "projects": [
+        {
+          "title1": "WhatToWatch",
+          "description1": "Creation of a web app to search for movies, series, among others, according to the genre that the user is looking for from the IMDB review page database."
+        }
+      ],
+      "others": [
+        {
+          "title1": "Others projects - Github",
+          "description1": "Various projects in practice mode, using frameworks/languages ​​such as React.Js, Node.Js, Javascript, among others."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phone": "Phone",
+        "message": "Message",
+        "button": {
+          "send": "Send",
+          "sending": "Sending..."
+        },
+        "messageStatus": {
+          "messageTrue": "Message sent successfully.",
+          "messageFalse": "Something went wrong, please try again later."
+        }
+      }
+    },
+    "footer": {
+      "copyright": "All Right Reserved"
+    }
+  },
+  "spanish": {
+    "select": "ES",
+    "navbar": {
+      "home": "Inicio",
+      "skills": "Aptitudes",
+      "projects": "Trabajos/Proyectos",
+      "myCV": "Mi Curriculum Vitae"
+    },
+    "banner": {
+      "welcome": "Bienvenido/a a mi Portfolio",
+      "hello": "Hola soy Jeremías Dominguez Vega",
+      "presentation": "Soy una persona proactiva, organizada y responsable, con buenas relaciones interpersonales. Siempre tengo la mejor disposición para realizar mi trabajo. Busco un puesto donde pueda desplegar todos mis conocimientos adquiridos, así como seguir aprendiendo en el área y adquirir experiencia."
+    },
+    "skills": {
+      "title": "Aptitudes",
+      "introduction": "Mis habilidades como desarrollador web incluyen conocimientos sólidos en HTML, CSS y JavaScript, experiencia en sitios web responsivos y familiaridad con frameworks como React y React Native. Soy un solucionador de problemas apasionado y siempre estoy buscando oportunidades para crecer y aprender."
+    },
+    "projects": {
+      "title": "Trabajos/Proyectos",
+      "introduction": "Permíteme presentarte una muestra de mis trabajos, proyectos y otras prácticas. En mi trayectoria, he desarrollado aplicaciones web como Milenium Gym, que ofrece gestión de usuarios, rutinas y planes nutricionales. También he actualizado el diseño web de Palomba Bienes Raices en WordPress. Además, he trabajado en Handshape Dataset, una biblioteca para procesamiento de imágenes de lengua de señas. En el ámbito de proyectos, destaco WhatToWatch, una app web para buscar películas y series basada en la base de datos de IMDB. También he realizado diversas prácticas en mi repositorio de Github, utilizando frameworks y lenguajes como React.Js, Node.Js y Javascript. ¡Explora y descubre más sobre mi trabajo!",
+      "tabOne": "Trabajos",
+      "tabTwo": "Proyectos",
+      "tabThree": "Otras Prácticas",
+      "works": [
+        {
+          "title1": "Milenium Gym",
+          "description1": "Desarrollo app web para manejo de usuarios de gimnasio. Permite añadir rutinas y planes nutricionales a los usuarios suscritos al mismo, así como también notificarles su próximo pago."
+        },
+        {
+          "title2": "Palomba Bienes Raices",
+          "description2": "Actualización diseño web en WordPress a partir de plantilla Figma."
+        },
+        {
+          "title3": "Handshape Dataset",
+          "description3": "Lógica y programación de librería para manejo de imágenes de lengua de señas de diferentes países."
+        }
+      ],
+      "projects": [
+        {
+          "title1": "QueMirar",
+          "description1": "Creación de app web para buscar películas, series, entre otros, de acuerdo al género que busque el usuario a partir de base de datos de página de reseñas IMDB."
+        }
+      ],
+      "others": [
+        {
+          "title1": "Otras Prácticas - Github",
+          "description1": "Diversos proyectos en modo de práctica, utilizando frameworks/lenguajes como por ejemplo React.Js, Node.Js, Javascript, entre otros."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Ponerse en contacto",
+      "form": {
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "phone": "Teléfono",
+        "message": "Mensaje",
+        "button": {
+          "send": "Enviar",
+          "sending": "Enviando..."
+        },
+        "messageStatus": {
+          "messageTrue": "Mensaje enviado con éxito.",
+          "messageFalse": "Algo salió mal, inténtalo nuevamente más tarde."
+        }
+      }
+    },
+    "footer": {
+      "copyright": "Todos los derechos reservados"
+    }
+  }
+}
