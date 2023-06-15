@@ -37,7 +37,7 @@ const Projects = ({ languageLines, language }) => {
       title: languageLines[language].projects.projects[0].title1,
       description: languageLines[language].projects.projects[0].description1,
       imgUrl: projQueMirar,
-      url: 'https://github.com/JereUR/que-mirar'
+      url: 'https://whattowatch-nine.vercel.app/'
     }
   ]
 
