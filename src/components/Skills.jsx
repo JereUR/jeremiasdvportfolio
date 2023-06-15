@@ -1,4 +1,3 @@
-import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import { Container, Col, Row } from 'react-bootstrap'
 import 'animate.css'
@@ -12,29 +11,46 @@ import javascript from '../assets/img/JavaScript.png'
 import html from '../assets/img/html.png'
 import css from '../assets/img/css.png'
 import typescript from '../assets/img/typescript.png'
+import c from '../assets/img/c.png'
+import bootstrap from '../assets/img/bootstrap.png'
+import axios from '../assets/img/axios.png'
+import node from '../assets/img/node.png'
+import git from '../assets/img/git.png'
+import visual from '../assets/img/visual.svg'
+import jquery from '../assets/img/jquery.png'
+import tailwind from '../assets/img/tailwind.png'
+import sql from '../assets/img/sql.png'
+import cplus from '../assets/img/c++.png'
+import php from '../assets/img/php.png'
+import json from '../assets/img/json.png'
+import phyton from '../assets/img/python.png'
+import redux from '../assets/img/redux.png'
+import wordpress from '../assets/img/wordpress.png'
 
 const Skills = ({ languageLines, language }) => {
-  console.log('Hola')
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 5
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  }
-
-  const skillsArray = [reactJS, javascript, html, css, typescript, reactNative]
+  const skillsArray = [
+    reactJS,
+    javascript,
+    html,
+    css,
+    json,
+    typescript,
+    reactNative,
+    axios,
+    bootstrap,
+    git,
+    visual,
+    tailwind,
+    redux,
+    node,
+    sql,
+    jquery,
+    php,
+    c,
+    cplus,
+    phyton,
+    wordpress
+  ]
 
   return (
     <section className="skill" id="skills">
@@ -51,20 +67,18 @@ const Skills = ({ languageLines, language }) => {
                   <div className="skill-bx">
                     <h2>{languageLines[language].skills.title}</h2>
                     <p>{languageLines[language].skills.introduction}</p>
-                    <Carousel
-                      responsive={responsive}
-                      infinite={true}
-                      className="skill-slider"
-                    >
-                      {skillsArray.map((skill, index) => (
-                        <img
-                          src={skill}
-                          alt={`skill${index}`}
-                          key={index}
-                          className="logo-skill"
-                        />
-                      ))}
-                    </Carousel>
+                    {skillsArray.map((skill, index) => (
+                      <img
+                        src={skill}
+                        alt={`skill${index}`}
+                        key={index}
+                        className={
+                          skill === javascript || skill === typescript
+                            ? 'logo-skill rounded-skill'
+                            : 'logo-skill'
+                        }
+                      />
+                    ))}
                   </div>
                 </div>
               )}
