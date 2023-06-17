@@ -16,7 +16,7 @@ const Projects = ({ languageLines, language }) => {
       title: languageLines[language].projects.works[0].title1,
       description: languageLines[language].projects.works[0].description1,
       imgUrl: projMilenium,
-      url: 'https://github.com/JereUR/Milenium-app-react-vite'
+      url: 'https://mileniumgimnasio.xyz/'
     },
     {
       title: languageLines[language].projects.works[1].title2,

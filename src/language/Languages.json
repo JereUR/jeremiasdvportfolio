@@ -109,7 +109,7 @@
       ],
       "projects": [
         {
-          "title1": "QueMirar",
+          "title1": "WhatToWatch",
           "description1": "Creación de app web para buscar películas, series, entre otros, de acuerdo al género que busque el usuario a partir de base de datos de página de reseñas IMDB."
         }
       ],
