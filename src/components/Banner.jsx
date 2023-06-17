@@ -18,6 +18,22 @@ const Banner = ({ languageLines, language }) => {
   const [text, setText] = useState('')
   const [delta, setDelta] = useState(300 - Math.random() * 100)
   const period = 2000
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    // Función para actualizar el ancho de la ventana
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth)
+    }
+
+    // Agregar el listener al evento 'resize'
+    window.addEventListener('resize', handleResize)
+
+    // Eliminar el listener al desmontar el componente
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -87,6 +103,21 @@ const Banner = ({ languageLines, language }) => {
             <img src={headerImg} alt="Header Img" />
           </Col>
         </Row>
+        {windowWidth < 750 && (
+          <span className="cv-text" id="basic-navbar-nav">
+            <button
+              className="vvd"
+              onClick={() =>
+                window.open(
+                  'https://drive.google.com/file/d/1RhfUgNsEYUXSLAN9t6NMsiHLoW2MSC1j/view?usp=sharing',
+                  '_blank'
+                )
+              }
+            >
+              <span>{languageLines[language].navbar.myCV}</span>
+            </button>
+          </span>
+        )}
       </Container>
     </section>
   )
