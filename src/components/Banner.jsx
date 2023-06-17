@@ -104,7 +104,7 @@ const Banner = ({ languageLines, language }) => {
           </Col>
         </Row>
         {windowWidth < 750 && (
-          <span className="cv-text" id="basic-navbar-nav">
+          <span className="cv-text">
             <button
               className="vvd"
               onClick={() =>
