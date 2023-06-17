@@ -6,6 +6,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
 import translate from '../assets/img/language.png'
 import translateInv from '../assets/img/language-inv.png'
+import CV from '../assets/CV/CV Jeremias Dominguez Vega.pdf'
 
 const NavBar = ({ languageLines, language, handleChangeLanguage }) => {
   const [activeLink, setActiveLink] = useState('home')
@@ -105,15 +106,7 @@ const NavBar = ({ languageLines, language, handleChangeLanguage }) => {
                 />
               </a>
             </div>
-            <button
-              className="vvd"
-              onClick={() =>
-                window.open(
-                  '/src/assets/CV/CV Jeremias Dominguez Vega.pdf',
-                  '_blank'
-                )
-              }
-            >
+            <button className="vvd" onClick={() => window.open(CV, '_blank')}>
               <span>{languageLines[language].navbar.myCV}</span>
             </button>
           </span>
