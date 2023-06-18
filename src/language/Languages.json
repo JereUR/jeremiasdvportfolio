@@ -9,7 +9,15 @@
     },
     "banner": {
       "welcome": "Welcome to my Portfolio",
-      "hello": "Hi I'm Jeremías Dominguez Vega",
+      "hello": "Hi Im Jeremías Dominguez Vega",
+      "toRotate": {
+        "toRotate": [
+          "FrontEnd Developer",
+          "Computer Engineer",
+          "Web Developer",
+          "React.Js Developer"
+        ]
+      },
       "presentation": "I am a proactive, organized and responsible person, with good interpersonal relationships. I always have the best disposition to carry out my work. I am looking for a position where I can display all my acquired knowledge, as well as continue learning in the area and gain experience."
     },
     "skills": {
@@ -81,6 +89,14 @@
     "banner": {
       "welcome": "Bienvenido/a a mi Portfolio",
       "hello": "Hola soy Jeremías Dominguez Vega",
+      "toRotate": {
+        "toRotate": [
+          "Desarrollador FrontEnd",
+          "Ingeniero en Computación",
+          "Desarrollador Web",
+          "Desarrollador React.Js"
+        ]
+      },
       "presentation": "Soy una persona proactiva, organizada y responsable, con buenas relaciones interpersonales. Siempre tengo la mejor disposición para realizar mi trabajo. Busco un puesto donde pueda desplegar todos mis conocimientos adquiridos, así como seguir aprendiendo en el área y adquirir experiencia."
     },
     "skills": {

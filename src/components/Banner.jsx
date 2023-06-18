@@ -1,39 +1,40 @@
 import { Container, Col, Row } from 'react-bootstrap'
-/* import { ArrowRightCircle } from 'react-bootstrap-icons' */
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
 import headerImg from '../assets/img/header-img.svg'
 
 const Banner = ({ languageLines, language }) => {
-  const [loopNum, setLoopNum] = useState(0)
-  const [isDeleting, setIsDeleting] = useState(false)
-  const toRotate = [
-    'FrontEnd Developer',
-    'Computer Engineer',
-    'Web Developer',
-    'React.Js Developer'
-  ]
-  const [text, setText] = useState('')
-  const [delta, setDelta] = useState(300 - Math.random() * 100)
-  const period = 2000
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  const toRotate = languageLines[language].banner.toRotate.toRotate
+  const [index, setIndex] = useState(0)
+  const [text, setText] = useState(toRotate[index])
+  const [delta, setDelta] = useState(3000 - Math.random() * 100)
+  const [windowWidth, setWindowWidth] = useState()
 
   useEffect(() => {
-    // Función para actualizar el ancho de la ventana
     const handleResize = () => {
       setWindowWidth(window.innerWidth)
     }
 
-    // Agregar el listener al evento 'resize'
+    setWindowWidth(window.innerWidth)
+
     window.addEventListener('resize', handleResize)
 
-    // Eliminar el listener al desmontar el componente
     return () => {
       window.removeEventListener('resize', handleResize)
     }
   }, [])
+
+  const tick = () => {
+    if (index < 3) {
+      setText(toRotate[index + 1])
+      setIndex(index + 1)
+    } else {
+      setText(toRotate[0])
+      setIndex(0)
+    }
+  }
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -44,29 +45,6 @@ const Banner = ({ languageLines, language }) => {
       clearInterval(ticker)
     }
   }, [text])
-
-  const tick = () => {
-    let i = loopNum % toRotate.length
-    let fullText = toRotate[i]
-    let updatedText = isDeleting
-      ? fullText.substring(0, text.length - 1)
-      : fullText.substring(0, text.length + 1)
-
-    setText(updatedText)
-
-    if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2)
-    }
-
-    if (!isDeleting && updatedText === fullText) {
-      setIsDeleting(true)
-      setDelta(period)
-    } else if (isDeleting && updatedText === '') {
-      setIsDeleting(false)
-      setLoopNum(loopNum + 1)
-      setDelta(500)
-    }
-  }
 
   return (
     <section className="banner" id="home">
@@ -90,10 +68,6 @@ const Banner = ({ languageLines, language }) => {
                       {'         '}
                       {languageLines[language].banner.presentation}
                     </p>
-                    {/* <button onClick={() => console.log('Connect')}>
-                {languageLines[language].navbar.connect}{' '}
-                <ArrowRightCircle size={25} />
-              </button> */}
                   </h1>
                 </div>
               )}
@@ -103,7 +77,7 @@ const Banner = ({ languageLines, language }) => {
             <img src={headerImg} alt="Header Img" />
           </Col>
         </Row>
-        {windowWidth < 750 && (
+        {windowWidth && windowWidth < 750 && (
           <span className="cv-text">
             <button
               className="vvd"

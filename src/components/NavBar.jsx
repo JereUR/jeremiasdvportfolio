@@ -11,6 +11,21 @@ const NavBar = ({ languageLines, language, handleChangeLanguage }) => {
   const [activeLink, setActiveLink] = useState('home')
   const [scrolled, setScrolled] = useState(false)
   const [hover, setHover] = useState(false)
+  const [windowWidth, setWindowWidth] = useState()
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth)
+    }
+
+    setWindowWidth(window.innerWidth)
+
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
 
   useEffect(() => {
     const onScroll = () => {
@@ -92,18 +107,20 @@ const NavBar = ({ languageLines, language, handleChangeLanguage }) => {
               >
                 <img src={navIcon3} alt="instagram" className="image" />
               </a>
-              <a
-                className="translate"
-                onClick={handleChangeLanguage}
-                onMouseEnter={() => setHover(true)}
-                onMouseLeave={() => setHover(false)}
-              >
-                <img
-                  src={hover ? translateInv : translate}
-                  alt="translate"
-                  className="translate-img"
-                />
-              </a>
+              {windowWidth && windowWidth > 520 && (
+                <a
+                  className="translate"
+                  onClick={handleChangeLanguage}
+                  onMouseEnter={() => setHover(true)}
+                  onMouseLeave={() => setHover(false)}
+                >
+                  <img
+                    src={hover ? translateInv : translate}
+                    alt="translate"
+                    className="translate-img"
+                  />
+                </a>
+              )}
             </div>
             <button
               className="vvd"

@@ -188,7 +188,7 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
+  padding: 18px 28px;
   font-size: 18px;
   margin-left: 18px;
   position: relative;
@@ -298,7 +298,8 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   }
 
   nav.navbar .navbar-nav .nav-link.navbar-link {
-    padding: 10px 15px;
+    padding: 10px 0px 10px 5px;
+    font-size: 14px;
   }
 }
 
