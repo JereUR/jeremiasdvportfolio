@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
+import { ArrowRightCircle } from 'react-bootstrap-icons'
 
 import logo from '../assets/img/Logo.png'
 import navIcon1 from '../assets/img/nav-icon1.svg'
@@ -136,6 +137,17 @@ const NavBar = ({ languageLines, language, handleChangeLanguage }) => {
           </span>
         </Navbar.Collapse>
       </Container>
+      {windowWidth && windowWidth < 520 && (
+        <div className="translate-container">
+          <button onClick={handleChangeLanguage}>
+            {language === 'english' ? 'Ver en Español' : 'See in English'}{' '}
+            <ArrowRightCircle
+              size={20}
+              style={{ marginBottom: 5, marginLeft: 5 }}
+            />
+          </button>
+        </div>
+      )}
     </Navbar>
   )
 }

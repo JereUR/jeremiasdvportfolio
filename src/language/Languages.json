@@ -25,7 +25,7 @@
       "introduction": "My skills as a web developer include a solid understanding of HTML, CSS, and JavaScript, experience with responsive websites, and familiarity with frameworks like React and React Native. I am a passionate problem solver and am always looking for opportunities to grow and learn."
     },
     "projects": {
-      "title": "Works/Projects",
+      "title": "Experiences",
       "introduction": "Allow me to present you a sample of my works, projects and other practices. In my career, I have developed web applications such as Milenium Gym, which offers user management, routines and nutritional plans. I have also updated the web design of Palomba Real Estate in WordPress. Also, I have worked on Handshape Dataset, a library for sign language image processing. In the field of projects, I highlight WhatToWatch, a web app to search for movies and series based on the IMDB database. I have also done various practices in my Github repository, using frameworks and languages ​​like React.Js, Node.Js and Javascript. Explore and discover more about my work!",
       "tabOne": "Works",
       "tabTwo": "Projects",
@@ -104,7 +104,7 @@
       "introduction": "Mis habilidades como desarrollador web incluyen conocimientos sólidos en HTML, CSS y JavaScript, experiencia en sitios web responsivos y familiaridad con frameworks como React y React Native. Soy un solucionador de problemas apasionado y siempre estoy buscando oportunidades para crecer y aprender."
     },
     "projects": {
-      "title": "Trabajos/Proyectos",
+      "title": "Experiencias",
       "introduction": "Permíteme presentarte una muestra de mis trabajos, proyectos y otras prácticas. En mi trayectoria, he desarrollado aplicaciones web como Milenium Gym, que ofrece gestión de usuarios, rutinas y planes nutricionales. También he actualizado el diseño web de Palomba Bienes Raices en WordPress. Además, he trabajado en Handshape Dataset, una biblioteca para procesamiento de imágenes de lengua de señas. En el ámbito de proyectos, destaco WhatToWatch, una app web para buscar películas y series basada en la base de datos de IMDB. También he realizado diversas prácticas en mi repositorio de Github, utilizando frameworks y lenguajes como React.Js, Node.Js y Javascript. ¡Explora y descubre más sobre mi trabajo!",
       "tabOne": "Trabajos",
       "tabTwo": "Proyectos",

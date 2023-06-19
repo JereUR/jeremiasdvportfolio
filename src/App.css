@@ -276,6 +276,18 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+.translate-container {
+  background-color: #121212;
+  padding: 8px;
+  margin: 10px;
+  border: solid 1px #fff;
+}
+
+.translate-container button {
+  font-weight: 500;
+  color: #fff;
+}
+
 @media screen and (max-width: 500px) {
   .navbar > .container,
   .navbar > .container-fluid,
@@ -436,7 +448,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 @media screen and (max-width: 500px) {
   .banner {
-    margin-top: 100px;
+    margin-top: 140px;
   }
 
   .banner h1 {
