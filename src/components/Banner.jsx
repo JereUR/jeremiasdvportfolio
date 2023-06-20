@@ -9,7 +9,7 @@ const Banner = ({ languageLines, language }) => {
   const toRotate = languageLines[language].banner.toRotate.toRotate
   const [index, setIndex] = useState(0)
   const [text, setText] = useState(toRotate[index])
-  const [delta, setDelta] = useState(3000 - Math.random() * 100)
+  const [delta, setDelta] = useState(2000 - Math.random() * 100)
   const [windowWidth, setWindowWidth] = useState()
 
   useEffect(() => {

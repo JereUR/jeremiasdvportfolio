@@ -26,6 +26,7 @@ import json from '../assets/img/json.png'
 import phyton from '../assets/img/python.png'
 import redux from '../assets/img/redux.png'
 import wordpress from '../assets/img/wordpress.png'
+import vite from '../assets/img/vite.png'
 
 const Skills = ({ languageLines, language }) => {
   const skillsArray = [
@@ -37,6 +38,7 @@ const Skills = ({ languageLines, language }) => {
     typescript,
     reactNative,
     axios,
+    vite,
     bootstrap,
     git,
     visual,
