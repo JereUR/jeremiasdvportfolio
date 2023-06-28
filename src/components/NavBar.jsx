@@ -4,7 +4,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons'
 
 import logo from '../assets/img/Logo.png'
 import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon3 from '../assets/img/nav-icon3.svg'
+import githubIcon from '../assets/img/github-icon.svg'
 import translate from '../assets/img/language.png'
 import translateInv from '../assets/img/language-inv.png'
 
@@ -102,11 +102,11 @@ const NavBar = ({ languageLines, language, handleChangeLanguage }) => {
                 <img src={navIcon1} alt="linkedin" className="image" />
               </a>
               <a
-                href="https://www.instagram.com/jere.dvega/?hl=es-la"
+                href="https://github.com/JereUR"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={navIcon3} alt="instagram" className="image" />
+                <img src={githubIcon} alt="instagram" className="image" />
               </a>
               {windowWidth && windowWidth > 520 && (
                 <a

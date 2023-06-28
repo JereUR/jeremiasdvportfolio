@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 import logo from '../assets/img/Logo.png'
 import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon3 from '../assets/img/nav-icon3.svg'
+import githubIcon from '../assets/img/github-icon.svg'
 
 const Footer = ({ languageLines, language }) => {
   return (
@@ -22,11 +22,11 @@ const Footer = ({ languageLines, language }) => {
                 <img src={navIcon1} className="image" />
               </a>
               <a
-                href="https://www.instagram.com/jere.dvega/?hl=es-la"
+                href="https://github.com/JereUR"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={navIcon3} className="image" />
+                <img src={githubIcon} className="image" />
               </a>
             </div>
             <p>CopyRight 2023. {languageLines[language].footer.copyright}</p>
