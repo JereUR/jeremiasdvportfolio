@@ -280,6 +280,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   background-color: #121212;
   padding: 8px;
   margin: 10px;
+  font-size: 14px;
   border: solid 1px #fff;
 }
 
