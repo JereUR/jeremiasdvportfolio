@@ -27,6 +27,7 @@ import phyton from '../assets/img/python.png'
 import redux from '../assets/img/redux.png'
 import wordpress from '../assets/img/wordpress.png'
 import vite from '../assets/img/vite.png'
+import nextjs from '../assets/img/nextjs.svg'
 
 const Skills = ({ languageLines, language }) => {
   const skillsArray = [
@@ -39,6 +40,7 @@ const Skills = ({ languageLines, language }) => {
     reactNative,
     axios,
     vite,
+    nextjs,
     bootstrap,
     git,
     visual,
@@ -47,7 +49,6 @@ const Skills = ({ languageLines, language }) => {
     node,
     sql,
     jquery,
-    php,
     c,
     cplus,
     phyton,
