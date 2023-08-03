@@ -47,7 +47,7 @@
       "projects": [
         {
           "title1": "Newxkcd",
-          "description1": "Redesign of the xkcd.com web page using Next.js 12 in which you can see the latest comics from the creator and filter by name/theme."
+          "description1": "Redesign of the xkcd.com web page using Next.js 12 in which you can see the latest comics from the creator and filter by name/theme. Using a small scrapper in Node.js to get the comics from the free creator API."
         },
         {
           "title2": "WhatToWatch",
@@ -130,7 +130,7 @@
       "projects": [
         {
           "title1": "Newxkcd",
-          "description1": "Rediseño de página web xkcd.com utilizando Next.js 12 en el cuál se podrán ver los ultimos comics del creador y filtrar por nombre/temática de los mismos."
+          "description1": "Rediseño de página web xkcd.com utilizando Next.js 12 en el cuál se podrán ver los ultimos comics del creador y filtrar por nombre/temática de los mismos. Utilización de un pequeño scrapper en Node.js para obtener los comics a partir de API del creador de uso gratuito."
         },
         {
           "title2": "WhatToWatch",
