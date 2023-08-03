@@ -83,7 +83,7 @@ const Banner = ({ languageLines, language }) => {
               className="vvd"
               onClick={() =>
                 window.open(
-                  'https://drive.google.com/file/d/1RhfUgNsEYUXSLAN9t6NMsiHLoW2MSC1j/view?usp=sharing',
+                  'https://drive.google.com/drive/folders/1Vv8MjmwFRjUKoXS0Fd1WyMMTcSTVFrij?usp=sharing',
                   '_blank'
                 )
               }
