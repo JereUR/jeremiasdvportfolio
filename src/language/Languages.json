@@ -46,8 +46,12 @@
       ],
       "projects": [
         {
-          "title1": "WhatToWatch",
-          "description1": "Creation of a web app to search for movies, series, among others, according to the genre that the user is looking for from the IMDB review page database."
+          "title1": "Newxkcd",
+          "description1": "Redesign of the xkcd.com web page using Next.js 12 in which you can see the latest comics from the creator and filter by name/theme."
+        },
+        {
+          "title2": "WhatToWatch",
+          "description2": "Creation of a web app to search for movies, series, among others, according to the genre that the user is looking for from the IMDB review page database."
         }
       ],
       "others": [
@@ -125,8 +129,12 @@
       ],
       "projects": [
         {
-          "title1": "WhatToWatch",
-          "description1": "Creación de app web para buscar películas, series, entre otros, de acuerdo al género que busque el usuario a partir de base de datos de página de reseñas IMDB."
+          "title1": "Newxkcd",
+          "description1": "Rediseño de página web xkcd.com utilizando Next.js 12 en el cuál se podrán ver los ultimos comics del creador y filtrar por nombre/temática de los mismos."
+        },
+        {
+          "title2": "WhatToWatch",
+          "description2": "Creación de app web para buscar películas, series, entre otros, de acuerdo al género que busque el usuario a partir de base de datos de página de reseñas IMDB."
         }
       ],
       "others": [

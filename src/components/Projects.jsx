@@ -3,6 +3,7 @@ import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
 import projMilenium from '../assets/img/project-milenium.png'
+import projXkcd from '../assets/img/project-newxkcd.png'
 import projQueMirar from '../assets/img/project-que-mirar.png'
 import projPalomba from '../assets/img/project-palomba.png'
 import projHandshape from '../assets/img/project-handshape.png'
@@ -36,6 +37,12 @@ const Projects = ({ languageLines, language }) => {
     {
       title: languageLines[language].projects.projects[0].title1,
       description: languageLines[language].projects.projects[0].description1,
+      imgUrl: projXkcd,
+      url: 'https://newxkcd.vercel.app/'
+    },
+    {
+      title: languageLines[language].projects.projects[1].title2,
+      description: languageLines[language].projects.projects[1].description2,
       imgUrl: projQueMirar,
       url: 'https://whattowatch-nine.vercel.app/'
     }
