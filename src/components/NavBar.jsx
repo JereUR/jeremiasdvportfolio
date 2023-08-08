@@ -89,7 +89,7 @@ const NavBar = ({ languageLines, language, handleChangeLanguage }) => {
               }
               onClick={() => onUpdateActiveLink('projects')}
             >
-              {languageLines[language].navbar.projects}
+              {languageLines[language].navbar.experiences}
             </Nav.Link>
           </Nav>
           <span className="navbar-text">

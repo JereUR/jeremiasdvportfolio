@@ -4,7 +4,7 @@
     "navbar": {
       "home": "Home",
       "skills": "Skills",
-      "projects": "Works/Projects",
+      "experiences": "Experiences",
       "myCV": "My Curriculum Vitae"
     },
     "banner": {
@@ -50,8 +50,12 @@
           "description1": "Redesign of the xkcd.com web page using Next.js 12 in which you can see the latest comics from the creator and filter by name/theme. Using a small scrapper in Node.js to get the comics from the free creator API."
         },
         {
-          "title2": "WhatToWatch",
-          "description2": "Creation of a web app to search for movies, series, among others, according to the genre that the user is looking for from the IMDB review page database."
+          "title2": "Weather App",
+          "description2": "Web application for viewing weather and forecast in real time with the possibility of searching for cities. Developed in React + Vite using the AccuWeather API."
+        },
+        {
+          "title3": "WhatToWatch",
+          "description3": "Creation of a web app to search for movies, series, among others, according to the genre that the user is looking for from the IMDB review page database."
         }
       ],
       "others": [
@@ -87,7 +91,7 @@
     "navbar": {
       "home": "Inicio",
       "skills": "Aptitudes",
-      "projects": "Trabajos/Proyectos",
+      "experiences": "Experiencias",
       "myCV": "Mi Curriculum Vitae"
     },
     "banner": {
@@ -133,8 +137,12 @@
           "description1": "Rediseño de página web xkcd.com utilizando Next.js 12 en el cuál se podrán ver los ultimos comics del creador y filtrar por nombre/temática de los mismos. Utilización de un pequeño scrapper en Node.js para obtener los comics a partir de API del creador de uso gratuito."
         },
         {
-          "title2": "WhatToWatch",
-          "description2": "Creación de app web para buscar películas, series, entre otros, de acuerdo al género que busque el usuario a partir de base de datos de página de reseñas IMDB."
+          "title2": "Weather App",
+          "description2": "Aplicación web para visualización de clima y pronóstico en tiempo real con posibilidad de búsqueda de ciudades. Desarrollada en React + Vite con utilización de Api de AccuWeather."
+        },
+        {
+          "title3": "WhatToWatch",
+          "description3": "Creación de app web para buscar películas, series, entre otros, de acuerdo al género que busque el usuario a partir de base de datos de página de reseñas IMDB."
         }
       ],
       "others": [
