@@ -50,8 +50,8 @@
           "description1": "Redesign of the xkcd.com web page using Next.js 12 in which you can see the latest comics from the creator and filter by name/theme. Using a small scrapper in Node.js to get the comics from the free creator API."
         },
         {
-          "title2": "Gestor Financiero",
-          "description2": "The financial management web application offers detailed tracking of expenses, recording of inputs and graphical visualization of data. In the backend, developed in Node.js, it connects to a MongoDB database. The interface, built with react.js + bolt, uses stylish components, chart.js and axios for a complete and efficient financial management experience."
+          "title2": "Money Manager",
+          "description2": "Financial management web app that provides detailed expense tracking, income recording and graphical data visualization. The backend, developed with Supabase. The frontend, built with react.js + vite, uses styled-components, chart.js and axios for a complete and efficient financial management experience."
         },
         {
           "title3": "Weather App",
@@ -142,7 +142,7 @@
         },
         {
           "title2": "Gestor Financiero",
-          "description2": "La app web de gestión financiera brinda seguimiento detallado de gastos, registro de ingresos, y visualización gráfica de datos. Su backend, desarrollado en Node.js, se conecta a una base de datos MongoDB. El frontend, creado con react.js + vite, utiliza styled-components, chart.js y axios para una experiencia completa y eficiente de gestión financiera."
+          "description2": "App web de gestión financiera que brinda seguimiento detallado de gastos, registro de ingresos, y visualización gráfica de datos. El backend, desarrollado con Supabase. El frontend, creado con react.js + vite, utiliza styled-components, chart.js y axios para una experiencia completa y eficiente de gestión financiera."
         },
         {
           "title3": "Weather App",
