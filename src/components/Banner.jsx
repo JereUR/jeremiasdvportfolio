@@ -1,9 +1,10 @@
 import { Container, Col, Row } from 'react-bootstrap'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
 import headerImg from '../assets/img/header-img.svg'
+import profileImg from '../assets/img/profile-photo.png'
 
 const Banner = ({ languageLines, language }) => {
   const toRotate = languageLines[language].banner.toRotate.toRotate
@@ -74,7 +75,7 @@ const Banner = ({ languageLines, language }) => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header Img" />
+            <img src={profileImg} alt="Header Img" />
           </Col>
         </Row>
         {windowWidth && windowWidth < 750 && (

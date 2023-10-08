@@ -54,12 +54,12 @@
           "description2": "Financial management web app that provides detailed expense tracking, income recording and graphical data visualization. The backend, developed with Supabase. The frontend, built with react.js + vite, uses styled-components, chart.js and axios for a complete and efficient financial management experience."
         },
         {
-          "title3": "Weather App",
-          "description3": "Web application for viewing weather and forecast in real time with the possibility of searching for cities. Developed in React + Vite using the AccuWeather API."
+          "title3": "Bonus Hunt Tracker",
+          "description3": "Web application to display real-time performance statistics on online slots. Developed in React + Vite with the use of a database in Supabase."
         },
         {
-          "title4": "Bonus Hunt Tracker",
-          "description4": "Web application to display real-time performance statistics on online slots. Developed in React + Vite with the use of a database in Supabase."
+          "title4": "Weather App",
+          "description4": "Web application for viewing weather and forecast in real time with the possibility of searching for cities. Developed in React + Vite using the AccuWeather API."
         },
         {
           "title5": "WhatToWatch",
@@ -149,12 +149,12 @@
           "description2": "App web de gestión financiera que brinda seguimiento detallado de gastos, registro de ingresos, y visualización gráfica de datos. El backend, desarrollado con Supabase. El frontend, creado con react.js + vite, utiliza styled-components, chart.js y axios para una experiencia completa y eficiente de gestión financiera."
         },
         {
-          "title3": "Weather App",
-          "description3": "Aplicación web para visualización de clima y pronóstico en tiempo real con posibilidad de búsqueda de ciudades. Desarrollada en React + Vite con utilización de Api de AccuWeather."
+          "title3": "Bonus Hunt Tracker",
+          "description3": "Aplicación web para mostrar estadísticas en tiempo real de performance en slots online. Desarrollada en React + Vite con utilización de base de datos en Supabase."
         },
         {
-          "title4": "Bonus Hunt Tracker",
-          "description4": "Aplicación web para mostrar estadísticas en tiempo real de performance en slots online. Desarrollada en React + Vite con utilización de base de datos en Supabase."
+          "title4": "Weather App",
+          "description4": "Aplicación web para visualización de clima y pronóstico en tiempo real con posibilidad de búsqueda de ciudades. Desarrollada en React + Vite con utilización de Api de AccuWeather."
         },
         {
           "title5": "WhatToWatch",
