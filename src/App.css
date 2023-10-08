@@ -462,6 +462,12 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   .banner p {
     font-size: 14px;
   }
+
+  .banner img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
 }
 
 /************ Skills Css ************/
