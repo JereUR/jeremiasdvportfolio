@@ -17,11 +17,9 @@ import axios from '../assets/img/axios.png'
 import node from '../assets/img/node.png'
 import git from '../assets/img/git.png'
 import visual from '../assets/img/visual.svg'
-import jquery from '../assets/img/jquery.png'
 import tailwind from '../assets/img/tailwind.png'
 import sql from '../assets/img/sql.png'
 import cplus from '../assets/img/c++.png'
-import php from '../assets/img/php.png'
 import json from '../assets/img/json.png'
 import phyton from '../assets/img/python.png'
 import redux from '../assets/img/redux.png'
@@ -48,7 +46,6 @@ const Skills = ({ languageLines, language }) => {
     redux,
     node,
     sql,
-    jquery,
     c,
     cplus,
     phyton,
