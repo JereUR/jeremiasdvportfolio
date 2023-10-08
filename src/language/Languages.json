@@ -58,8 +58,12 @@
           "description3": "Web application for viewing weather and forecast in real time with the possibility of searching for cities. Developed in React + Vite using the AccuWeather API."
         },
         {
-          "title4": "WhatToWatch",
-          "description4": "Creation of a web app to search for movies, series, among others, according to the genre that the user is looking for from the IMDB review page database."
+          "title4": "Bonus Hunt Tracker",
+          "description4": "Web application to display real-time performance statistics on online slots. Developed in React + Vite with the use of a database in Supabase."
+        },
+        {
+          "title5": "WhatToWatch",
+          "description5": "Creation of a web app to search for movies, series, among others, according to the genre that the user is looking for from the IMDB review page database."
         }
       ],
       "others": [
@@ -149,8 +153,12 @@
           "description3": "Aplicación web para visualización de clima y pronóstico en tiempo real con posibilidad de búsqueda de ciudades. Desarrollada en React + Vite con utilización de Api de AccuWeather."
         },
         {
-          "title4": "WhatToWatch",
-          "description4": "Creación de app web para buscar películas, series, entre otros, de acuerdo al género que busque el usuario a partir de base de datos de página de reseñas IMDB."
+          "title4": "Bonus Hunt Tracker",
+          "description4": "Aplicación web para mostrar estadísticas en tiempo real de performance en slots online. Desarrollada en React + Vite con utilización de base de datos en Supabase."
+        },
+        {
+          "title5": "WhatToWatch",
+          "description5": "Creación de app web para buscar películas, series, entre otros, de acuerdo al género que busque el usuario a partir de base de datos de página de reseñas IMDB."
         }
       ],
       "others": [

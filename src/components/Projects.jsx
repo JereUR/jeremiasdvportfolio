@@ -6,6 +6,7 @@ import projMilenium from '../assets/img/project-milenium.png'
 import projXkcd from '../assets/img/project-newxkcd.png'
 import projGestor from '../assets/img/project-money-manager.png'
 import projWeather from '../assets/img/project-weather-app.png'
+import projBonus from '../assets/img/project-bonusHuntTracker.png'
 import projQueMirar from '../assets/img/project-que-mirar.png'
 import projPalomba from '../assets/img/project-palomba.png'
 import projHandshape from '../assets/img/project-handshape.png'
@@ -57,8 +58,14 @@ const Projects = ({ languageLines, language }) => {
     {
       title: languageLines[language].projects.projects[3].title4,
       description: languageLines[language].projects.projects[3].description4,
+      imgUrl: projBonus,
+      url: 'https://bonus-hunt-tracker.vercel.app/'
+    },
+    {
+      title: languageLines[language].projects.projects[4].title5,
+      description: languageLines[language].projects.projects[4].description5,
       imgUrl: projQueMirar,
-      url: 'https://whattowatch-nine.vercel.app/'
+      url: 'https://github.com/JereUR/que-mirar'
     }
   ]
 
