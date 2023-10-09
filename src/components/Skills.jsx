@@ -30,28 +30,28 @@ import supabase from '../assets/img/supabase.png'
 
 const Skills = ({ languageLines, language }) => {
   const skillsArray = [
-    reactJS,
-    javascript,
-    html,
-    css,
-    json,
-    typescript,
-    reactNative,
-    supabase,
-    axios,
-    vite,
-    nextjs,
-    bootstrap,
-    git,
-    visual,
-    tailwind,
-    redux,
-    node,
-    sql,
-    c,
-    cplus,
-    phyton,
-    wordpress
+    { img: reactJS, title: 'React.js' },
+    { img: javascript, title: 'Javascript' },
+    { img: html, title: 'HTML' },
+    { img: css, title: 'CSS' },
+    { img: json, title: 'JSON' },
+    { img: typescript, title: 'Typescript' },
+    { img: reactNative, title: 'React Native' },
+    { img: supabase, title: 'Supabase' },
+    { img: axios, title: 'Axios' },
+    { img: vite, title: 'Vite' },
+    { img: nextjs, title: 'Next.js' },
+    { img: bootstrap, title: 'Bootstrap' },
+    { img: git, title: 'Git' },
+    { img: visual, title: 'Visual Studio Code' },
+    { img: tailwind, title: 'Tailwind' },
+    { img: redux, title: 'Redux' },
+    { img: node, title: 'Node.js' },
+    { img: sql, title: 'SQL' },
+    { img: c, title: 'C' },
+    { img: cplus, title: 'C++' },
+    { img: phyton, title: 'Python' },
+    { img: wordpress, title: 'Wordpress' }
   ]
 
   return (
@@ -71,8 +71,9 @@ const Skills = ({ languageLines, language }) => {
                     <p>{languageLines[language].skills.introduction}</p>
                     {skillsArray.map((skill, index) => (
                       <img
-                        src={skill}
-                        alt={`skill${index}`}
+                        src={skill.img}
+                        alt={skill.title}
+                        title={skill.title}
                         key={index}
                         className={
                           skill === javascript || skill === typescript
