@@ -26,6 +26,7 @@ import redux from '../assets/img/redux.png'
 import wordpress from '../assets/img/wordpress.png'
 import vite from '../assets/img/vite.png'
 import nextjs from '../assets/img/nextjs.svg'
+import supabase from '../assets/img/supabase.png'
 
 const Skills = ({ languageLines, language }) => {
   const skillsArray = [
@@ -36,6 +37,7 @@ const Skills = ({ languageLines, language }) => {
     json,
     typescript,
     reactNative,
+    supabase,
     axios,
     vite,
     nextjs,
