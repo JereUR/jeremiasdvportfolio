@@ -27,6 +27,7 @@ import wordpress from '../assets/img/wordpress.png'
 import vite from '../assets/img/vite.png'
 import nextjs from '../assets/img/nextjs.svg'
 import supabase from '../assets/img/supabase.png'
+import linux from '../assets/img/linux.png'
 
 const Skills = ({ languageLines, language }) => {
   const skillsArray = [
@@ -49,6 +50,7 @@ const Skills = ({ languageLines, language }) => {
     { img: node, title: 'Node.js' },
     { img: sql, title: 'SQL' },
     { img: c, title: 'C' },
+    { img: linux, title: 'Linux' },
     { img: cplus, title: 'C++' },
     { img: phyton, title: 'Python' },
     { img: wordpress, title: 'Wordpress' }
