@@ -40,8 +40,8 @@ const Projects = ({ languageLines, language }) => {
     {
       title: languageLines[language].projects.projects[0].title1,
       description: languageLines[language].projects.projects[0].description1,
-      imgUrl: projXkcd,
-      url: 'https://newxkcd.vercel.app/'
+      imgUrl: projBonus,
+      url: 'https://bonus-hunt-tracker.vercel.app/'
     },
     {
       title: languageLines[language].projects.projects[1].title2,
@@ -52,20 +52,20 @@ const Projects = ({ languageLines, language }) => {
     {
       title: languageLines[language].projects.projects[2].title3,
       description: languageLines[language].projects.projects[2].description3,
-      imgUrl: projBonus,
-      url: 'https://bonus-hunt-tracker.vercel.app/'
+      imgUrl: projQueMirar,
+      url: 'https://github.com/JereUR/que-mirar'
     },
     {
       title: languageLines[language].projects.projects[3].title4,
       description: languageLines[language].projects.projects[3].description4,
-      imgUrl: projWeather,
-      url: 'https://weather-app-dun-ten.vercel.app/'
+      imgUrl: projXkcd,
+      url: 'https://newxkcd.vercel.app/'
     },
     {
       title: languageLines[language].projects.projects[4].title5,
       description: languageLines[language].projects.projects[4].description5,
-      imgUrl: projQueMirar,
-      url: 'https://github.com/JereUR/que-mirar'
+      imgUrl: projWeather,
+      url: 'https://weather-app-dun-ten.vercel.app/'
     }
   ]
 
