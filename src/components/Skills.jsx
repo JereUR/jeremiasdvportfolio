@@ -12,14 +12,13 @@ import html from '../assets/img/html.png'
 import css from '../assets/img/css.png'
 import typescript from '../assets/img/typescript.png'
 import c from '../assets/img/c.png'
-import bootstrap from '../assets/img/bootstrap.png'
+import astro from '../assets/img/astro.png'
 import axios from '../assets/img/axios.png'
 import node from '../assets/img/node.png'
 import git from '../assets/img/git.png'
 import visual from '../assets/img/visual.svg'
 import tailwind from '../assets/img/tailwind.png'
 import sql from '../assets/img/sql.png'
-import cplus from '../assets/img/c++.png'
 import json from '../assets/img/json.png'
 import phyton from '../assets/img/python.png'
 import redux from '../assets/img/redux.png'
@@ -42,7 +41,7 @@ const Skills = ({ languageLines, language }) => {
     { img: axios, title: 'Axios' },
     { img: vite, title: 'Vite' },
     { img: nextjs, title: 'Next.js' },
-    { img: bootstrap, title: 'Bootstrap' },
+    { img: astro, title: 'Astro' },
     { img: git, title: 'Git' },
     { img: visual, title: 'Visual Studio Code' },
     { img: tailwind, title: 'Tailwind' },
@@ -51,7 +50,6 @@ const Skills = ({ languageLines, language }) => {
     { img: sql, title: 'SQL' },
     { img: c, title: 'C' },
     { img: linux, title: 'Linux' },
-    { img: cplus, title: 'C++' },
     { img: phyton, title: 'Python' },
     { img: wordpress, title: 'Wordpress' }
   ]
