@@ -5,6 +5,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg'
 import githubIcon from '../assets/img/github-icon.svg'
 
 const Footer = ({ languageLines, language }) => {
+  const currentYear = new Date().getFullYear()
   return (
     <footer className="footer">
       <Container>
@@ -29,7 +30,10 @@ const Footer = ({ languageLines, language }) => {
                 <img src={githubIcon} className="image" />
               </a>
             </div>
-            <p>CopyRight 2023. {languageLines[language].footer.copyright}</p>
+            <p>
+              CopyRight {currentYear}.{' '}
+              {languageLines[language].footer.copyright}
+            </p>
           </Col>
         </Row>
       </Container>
