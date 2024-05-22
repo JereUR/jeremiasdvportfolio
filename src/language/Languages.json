@@ -26,7 +26,7 @@
     },
     "projects": {
       "title": "Experiences",
-      "introduction": "Allow me to present you a sample of my works, projects and other practices. In my career, I have developed web applications such as Milenium Gym, which offers user management, routines and nutritional plans. I have also updated the Palomba Bienes Raices web design in WordPress. Additionally, I have worked on Handshape Dataset, a Python library for sign language image processing. In the area of ​​projects, I highlight Bonus Hunt Tracker, a web app to track and obtain bonus statistics in online slots, as well as Money Manager, an app for the management and management of income/expenses, with graphic visualization of the balance. I have also carried out various practices in my Github repository, using frameworks and languages ​​such as React.Js, Node.Js, Javascript and Python. Explore and discover more about my work!",
+      "introduction": "Allow me to present you a sample of my works, projects and other practices. In my career, I have developed web applications such as Milenium Gym, which offers user management, routines and nutritional plans. I have also updated the Palomba Bienes Raices web design in WordPress. Additionally, I have worked on Handshape Dataset, a Python library for sign language image processing. In the area of ​​projects, I highlight Bonus Hunt Tracker, a web app to track and obtain bonus statistics in online slots, as well as Money Manager, an app for the management and management of income/expenses, with graphic visualization of the balance. I am currently working on a personal venture together with a team, in the development of an App for business management, in principle, oriented to the sports/gyms field. I have also carried out various practices in my Github repository, using frameworks and languages ​​such as React.Js, Node.Js, Javascript and Python. Explore and discover more about my work!",
       "tabOne": "Works",
       "tabTwo": "Projects",
       "tabThree": "Other Practices",
@@ -54,16 +54,8 @@
           "description2": "Financial management web app that provides detailed expense tracking, income recording and graphical data visualization. The backend, developed with Supabase. The frontend, built with react.js + vite, uses styled-components, chart.js and axios for a complete and efficient financial management experience."
         },
         {
-          "title3": "WhatToWatch",
-          "description3": "Creation of a web app to search for movies, series, among others, according to the genre that the user is looking for from the IMDB review page database."
-        },
-        {
-          "title4": "Newxkcd",
-          "description4": "Redesign of the xkcd.com web page using Next.js 12 in which you can see the latest comics from the creator and filter by name/theme. Using a small scrapper in Node.js to get the comics from the free creator API. Midudev Youtube course."
-        },
-        {
-          "title5": "Weather App",
-          "description5": "Web application for viewing weather and forecast in real time with the possibility of searching for cities. Developed in React + Vite using the AccuWeather API."
+          "title3": "Penta (Entrepreneurship)",
+          "description3": "Creation of Web App for monitoring, both statistical and logistical, for businesses, in principle, in the sports field. Developed in Next 14 complemented with a Ruby backend.."
         }
       ],
       "others": [
@@ -121,7 +113,7 @@
     },
     "projects": {
       "title": "Experiencias",
-      "introduction": "Permíteme presentarte una muestra de mis trabajos, proyectos y otras prácticas. En mi trayectoria, he desarrollado aplicaciones web como Milenium Gym, que ofrece gestión de usuarios, rutinas y planes nutricionales. También he actualizado el diseño web de Palomba Bienes Raices en WordPress. Además, he trabajado en Handshape Dataset, una biblioteca de Python para procesamiento de imágenes de lengua de señas. En el ámbito de proyectos, destaco Bonus Hunt Tracker, una app web para realizar seguimiento y obtener estadisticas de bonus en slots online, así como tambien Money Manager, una app para el manejo y gestión de ingresos/gastos, con visualización gráfica de balance. También he realizado diversas prácticas en mi repositorio de Github, utilizando frameworks y lenguajes como React.Js, Node.Js, Javascript y Python. ¡Explora y descubre más sobre mi trabajo!",
+      "introduction": "Permíteme presentarte una muestra de mis trabajos, proyectos y otras prácticas. En mi trayectoria, he desarrollado aplicaciones web como Milenium Gym, que ofrece gestión de usuarios, rutinas y planes nutricionales. También he actualizado el diseño web de Palomba Bienes Raices en WordPress. Además, he trabajado en Handshape Dataset, una biblioteca de Python para procesamiento de imágenes de lengua de señas. En el ámbito de proyectos, destaco Bonus Hunt Tracker, una app web para realizar seguimiento y obtener estadisticas de bonus en slots online, así como tambien Money Manager, una app para el manejo y gestión de ingresos/gastos, con visualización gráfica de balance. Actualmente estoy trabajando en un emprendimiento personal junto a un equipo, en el desarrollo de una App para gestión de negocios, en principio, orientados al ámbito deportivo/gimnasios. También he realizado diversas prácticas en mi repositorio de Github, utilizando frameworks y lenguajes como React.Js, Node.Js, Javascript y Python. ¡Explora y descubre más sobre mi trabajo!",
       "tabOne": "Trabajos",
       "tabTwo": "Proyectos",
       "tabThree": "Otras Prácticas",
@@ -149,16 +141,8 @@
           "description2": "App web de gestión financiera que brinda seguimiento detallado de gastos, registro de ingresos, y visualización gráfica de datos. El backend, desarrollado con Supabase. El frontend, creado con react.js + vite, utiliza styled-components, chart.js y axios para una experiencia completa y eficiente de gestión financiera."
         },
         {
-          "title3": "WhatToWatch",
-          "description3": "Creación de app web para buscar películas, series, entre otros, de acuerdo al género que busque el usuario a partir de base de datos de página de reseñas IMDB."
-        },
-        {
-          "title4": "Newxkcd",
-          "description4": "Rediseño de página web xkcd.com utilizando Next.js 12 en el cuál se podrán ver los ultimos comics del creador y filtrar por nombre/temática de los mismos. Utilización de un pequeño scrapper en Node.js para obtener los comics a partir de API del creador de uso gratuito. Curso de Midudev en Youtube"
-        },
-        {
-          "title5": "Weather App",
-          "description5": "Aplicación web para visualización de clima y pronóstico en tiempo real con posibilidad de búsqueda de ciudades. Desarrollada en React + Vite con utilización de Api de AccuWeather."
+          "title3": "Penta (Emprendimiento)",
+          "description3": "Creación de App Web para seguimiento, tanto estadístico como logístico, para negocios, en principio, del ambito deportivo. Desarrolado en Next 14 complementado con un backend en Ruby."
         }
       ],
       "others": [

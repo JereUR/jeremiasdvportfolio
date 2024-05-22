@@ -3,11 +3,9 @@ import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
 import projMilenium from '../assets/img/project-milenium.png'
-import projXkcd from '../assets/img/project-newxkcd.png'
 import projGestor from '../assets/img/project-money-manager.png'
-import projWeather from '../assets/img/project-weather-app.png'
 import projBonus from '../assets/img/project-bonusHuntTracker.png'
-import projQueMirar from '../assets/img/project-que-mirar.png'
+import projPenta from '../assets/img/project-penta.png'
 import projPalomba from '../assets/img/project-palomba.png'
 import projHandshape from '../assets/img/project-handshape.png'
 import projGithub from '../assets/img/project-github.png'
@@ -52,20 +50,8 @@ const Projects = ({ languageLines, language }) => {
     {
       title: languageLines[language].projects.projects[2].title3,
       description: languageLines[language].projects.projects[2].description3,
-      imgUrl: projQueMirar,
-      url: 'https://github.com/JereUR/que-mirar'
-    },
-    {
-      title: languageLines[language].projects.projects[3].title4,
-      description: languageLines[language].projects.projects[3].description4,
-      imgUrl: projXkcd,
-      url: 'https://newxkcd.vercel.app/'
-    },
-    {
-      title: languageLines[language].projects.projects[4].title5,
-      description: languageLines[language].projects.projects[4].description5,
-      imgUrl: projWeather,
-      url: 'https://weather-app-dun-ten.vercel.app/'
+      imgUrl: projPenta,
+      url: 'https://github.com/JereUR/gym-app-frontend'
     }
   ]
 
