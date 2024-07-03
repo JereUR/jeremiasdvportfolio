@@ -22,7 +22,7 @@
     },
     "skills": {
       "title": "Skills",
-      "introduction": "My skills as a web developer include a solid understanding of HTML, CSS, and JavaScript, experience with responsive websites, and familiarity with frameworks like React and React Native. I am a passionate problem solver and am always looking for opportunities to grow and learn."
+      "introduction": "My skills as a web developer include a solid understanding of HTML, CSS, JavaScript, Typescript y Tailwind, experience with responsive websites, and familiarity with frameworks like Next and React. I am a passionate problem solver and am always looking for opportunities to grow and learn."
     },
     "projects": {
       "title": "Experiences",
@@ -109,7 +109,7 @@
     },
     "skills": {
       "title": "Aptitudes",
-      "introduction": "Mis habilidades como desarrollador web incluyen conocimientos sólidos en HTML, CSS y JavaScript, experiencia en sitios web responsivos y familiaridad con frameworks como React y React Native. Soy un solucionador de problemas apasionado y siempre estoy buscando oportunidades para crecer y aprender."
+      "introduction": "Mis habilidades como desarrollador web incluyen conocimientos sólidos en HTML, CSS, JavaScript, Typescript y Tailwind, experiencia en sitios web responsivos y familiaridad con frameworks como Next y React. Soy un solucionador de problemas apasionado y siempre estoy buscando oportunidades para crecer y aprender."
     },
     "projects": {
       "title": "Experiencias",
