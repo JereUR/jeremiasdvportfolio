@@ -554,6 +554,20 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 
+.commit-calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 30px 30px 30px;
+}
+
+.commit-calendar p {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
 .project {
   padding: 80px 0;
   position: relative;

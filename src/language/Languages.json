@@ -27,6 +27,7 @@
     "projects": {
       "title": "Experiences",
       "introduction": "Allow me to present you a sample of my works, projects and other practices. In my career, I have developed web applications such as Milenium Gym, which offers user management, routines and nutritional plans. I have also updated the Palomba Bienes Raices web design in WordPress. Additionally, I have worked on Handshape Dataset, a Python library for sign language image processing. In the area of ​​projects, I highlight Bonus Hunt Tracker, a web app to track and obtain bonus statistics in online slots, as well as Money Manager, an app for the management and management of income/expenses, with graphic visualization of the balance. I am currently working on a personal venture together with a team, in the development of an App for business management, in principle, oriented to the sports/gyms field. I have also carried out various practices in my Github repository, using frameworks and languages ​​such as React.Js, Node.Js, Javascript and Python. Explore and discover more about my work!",
+      "gitHub": "My GitHub Commit Calendar",
       "tabOne": "Works",
       "tabTwo": "Projects",
       "tabThree": "Other Practices",
@@ -114,6 +115,7 @@
     "projects": {
       "title": "Experiencias",
       "introduction": "Permíteme presentarte una muestra de mis trabajos, proyectos y otras prácticas. En mi trayectoria, he desarrollado aplicaciones web como Milenium Gym, que ofrece gestión de usuarios, rutinas y planes nutricionales. También he actualizado el diseño web de Palomba Bienes Raices en WordPress. Además, he trabajado en Handshape Dataset, una biblioteca de Python para procesamiento de imágenes de lengua de señas. En el ámbito de proyectos, destaco Bonus Hunt Tracker, una app web para realizar seguimiento y obtener estadisticas de bonus en slots online, así como tambien Money Manager, una app para el manejo y gestión de ingresos/gastos, con visualización gráfica de balance. Actualmente estoy trabajando en un emprendimiento personal junto a un equipo, en el desarrollo de una App para gestión de negocios, en principio, orientados al ámbito deportivo/gimnasios. También he realizado diversas prácticas en mi repositorio de Github, utilizando frameworks y lenguajes como React.Js, Node.Js, Javascript y Python. ¡Explora y descubre más sobre mi trabajo!",
+      "gitHub": "Mi Calendario de Commits de GitHub",
       "tabOne": "Trabajos",
       "tabTwo": "Proyectos",
       "tabThree": "Otras Prácticas",

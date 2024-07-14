@@ -11,6 +11,7 @@ import projHandshape from '../assets/img/project-handshape.png'
 import projGithub from '../assets/img/project-github.png'
 import ProjectCard from './ProjectCard'
 import colorSharp2 from '../assets/img/color-sharp2.png'
+import GitHubCalendar from 'react-github-calendar'
 
 const Projects = ({ languageLines, language }) => {
   const works = [
@@ -78,6 +79,10 @@ const Projects = ({ languageLines, language }) => {
                 >
                   <h2>{languageLines[language].projects.title}</h2>
                   <p>{languageLines[language].projects.introduction}</p>
+                  <div className="commit-calendar">
+                    <p>{languageLines[language].projects.gitHub}</p>
+                    <GitHubCalendar username="JereUR" />
+                  </div>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
