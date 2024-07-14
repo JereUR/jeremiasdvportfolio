@@ -561,11 +561,42 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   justify-content: center;
   align-items: center;
   margin: 15px 30px 30px 30px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #333 #f1f1f1;
 }
 
 .commit-calendar p {
   margin-bottom: 10px;
   font-size: 24px;
+}
+
+/************ Scroll bar styles ************/
+
+.comit-calendar::-webkit-scrollbar {
+  display: none;
+}
+
+.comit-calendar::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+.commit-calendar::-webkit-scrollbar-track {
+  background: #d2d2d2;
+  border-radius: 10px;
+}
+
+.commit-calendar::-webkit-scrollbar-thumb {
+  background: #333; /* Color del "pulgar" */
+  border-radius: 10px; /* Redondeo del "pulgar" */
+  opacity: 0.8;
+}
+
+.commit-calendar::-webkit-scrollbar-thumb:hover {
+  background: #333; /* Color del "pulgar" al pasar el mouse */
+  opacity: 0.8;
+  cursor: grab;
 }
 
 .project {
