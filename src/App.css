@@ -540,6 +540,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   width: 50px;
   margin: 5px 5px 0 5px;
   height: auto;
+  cursor: pointer;
 }
 
 .rounded-skill {
