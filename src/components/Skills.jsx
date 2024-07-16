@@ -11,6 +11,7 @@ import javascript from '../assets/img/JavaScript.png'
 import html from '../assets/img/html.png'
 import css from '../assets/img/css.png'
 import typescript from '../assets/img/typescript.png'
+import shadcn from '../assets/img/shadcn.png'
 import c from '../assets/img/c.png'
 import astro from '../assets/img/astro.png'
 import axios from '../assets/img/axios.png'
@@ -36,6 +37,7 @@ const Skills = ({ languageLines, language }) => {
     { img: css, title: 'CSS' },
     { img: json, title: 'JSON' },
     { img: typescript, title: 'Typescript' },
+    { img: shadcn, title: 'Shadcn UI' },
     { img: reactNative, title: 'React Native' },
     { img: supabase, title: 'Supabase' },
     { img: axios, title: 'Axios' },
