@@ -5,6 +5,7 @@ import TrackVisibility from 'react-on-screen'
 import projMilenium from '../assets/img/project-milenium.png'
 import projGestor from '../assets/img/project-money-manager.png'
 import projBonus from '../assets/img/project-bonusHuntTracker.png'
+import projTrackApp from '../assets/img/project-trackapp.png'
 import projPenta from '../assets/img/project-penta.png'
 import projPalomba from '../assets/img/project-palomba.png'
 import projHandshape from '../assets/img/project-handshape.png'
@@ -51,6 +52,12 @@ const Projects = ({ languageLines, language }) => {
     {
       title: languageLines[language].projects.projects[2].title3,
       description: languageLines[language].projects.projects[2].description3,
+      imgUrl: projTrackApp,
+      url: 'https://trackapp-delta.vercel.app/'
+    },
+    {
+      title: languageLines[language].projects.projects[3].title4,
+      description: languageLines[language].projects.projects[3].description4,
       imgUrl: projPenta,
       url: 'https://github.com/JereUR/gym-app-frontend'
     }

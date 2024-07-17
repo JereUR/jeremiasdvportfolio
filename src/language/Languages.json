@@ -55,8 +55,12 @@
           "description2": "Financial management web app that provides detailed expense tracking, income recording and graphical data visualization. The backend, developed with Supabase. The frontend, built with react.js + vite, uses styled-components, chart.js and axios for a complete and efficient financial management experience."
         },
         {
-          "title3": "Penta (Entrepreneurship)",
-          "description3": "Creation of Web App for monitoring, both statistical and logistical, for businesses, in principle, in the sports field. Developed in Next 14 complemented with a Ruby backend.."
+          "title3": "TrackApp",
+          "description3": "Creation of a Web App for the creation and tracking of shipments using GPS devices. It allows user management, shipments, visualization in a shipment calendar, real-time visualization of shipments and log reporting. The frontend is developed in Next.js + Tailwind CSS (The deployment consists of local information without connection to a server or database)"
+        },
+        {
+          "title4": "Penta (Entrepreneurship)",
+          "description4": "Creation of Web App for monitoring, both statistical and logistical, for businesses, in principle, in the sports field. Developed in Next 14 complemented with a Ruby backend.."
         }
       ],
       "others": [
@@ -143,8 +147,12 @@
           "description2": "App web de gestión financiera que brinda seguimiento detallado de gastos, registro de ingresos, y visualización gráfica de datos. El backend, desarrollado con Supabase. El frontend, creado con react.js + vite, utiliza styled-components, chart.js y axios para una experiencia completa y eficiente de gestión financiera."
         },
         {
-          "title3": "Penta (Emprendimiento)",
-          "description3": "Creación de App Web para seguimiento, tanto estadístico como logístico, para negocios, en principio, del ambito deportivo. Desarrolado en Next 14 complementado con un backend en Ruby."
+          "title3": "TrackApp",
+          "description3": "Creación de App Web para creación y seguimiento de envíos mediante dispositivos GPS. Permite manejo de usuarios, envíos, visualización en calendario de envíos, visualización en tiempo real de envíos y reporte de registros. El frontend está desarrollado en Next.js + Tailwind CSS. (El deploy consta con información local sin conexión a servidor ni base de datos)"
+        },
+        {
+          "title4": "Penta (Emprendimiento)",
+          "description4": "Creación de App Web para seguimiento, tanto estadístico como logístico, para negocios, en principio, del ambito deportivo. Desarrolado en Next 14 complementado con un backend en Ruby."
         }
       ],
       "others": [
