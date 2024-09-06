@@ -26,7 +26,7 @@
     },
     "projects": {
       "title": "Experiences",
-      "introduction": "Allow me to present you a sample of my works, projects and other practices. In my career, I have developed web applications such as Milenium Gym, which offers user management, routines and nutritional plans. I have also updated the Palomba Bienes Raices web design in WordPress. Additionally, I have worked on Handshape Dataset, a Python library for sign language image processing. In the area of ​​projects, I highlight Bonus Hunt Tracker, a web app to track and obtain bonus statistics in online slots, as well as Money Manager, an app for the management and management of income/expenses, with graphic visualization of the balance. I am currently working on a personal venture together with a team, in the development of an App for business management, in principle, oriented to the sports/gyms field. I have also carried out various practices in my Github repository, using frameworks and languages ​​such as React.Js, Node.Js, Javascript and Python. Explore and discover more about my work!",
+      "introduction": "Allow me to present you a sample of my work, projects and other practices. In my career, I have developed web applications such as Milenium Gym, which offers user management, routines and nutritional plans. I have also updated the web design of Palomba Bienes Raices in WordPress. In addition, I have worked on Handshape Dataset, a Python library for sign language image processing. In the area of ​​projects, I highlight Filmbook, a social network combination between X and Letterboxd, as well as TrackApp, a web app for tracking. , schedule and obtain shipping statistics from GPS location. I am currently working on a personal venture with a team, in the development of an App for business management, in principle, oriented to the sports/gyms field. practices in my Github repository, using frameworks and languages ​​such as React.Js, Node.Js, Javascript and Python. Explore and discover more about my work!",
       "gitHub": "My GitHub Commit Calendar",
       "tabOne": "Works",
       "tabTwo": "Projects",
@@ -47,20 +47,24 @@
       ],
       "projects": [
         {
-          "title1": "Bonus Hunt Tracker",
-          "description1": "Web application to display real-time performance statistics on online slots. Developed in React + Vite with the use of a database in Supabase."
+          "title1": "Filmbook",
+          "description1": "Development of a social network that mixes features of X and Letterboxd to share and review movies. Built with Next.js, Prisma, Lucia Auth, React Query, Typescript and Tailwind CSS. Currently in development, based on an original Coding In framework Flow, with improvements to incorporate the Letterboxd part."
         },
         {
-          "title2": "Money Manager",
-          "description2": "Financial management web app that provides detailed expense tracking, income recording and graphical data visualization. The backend, developed with Supabase. The frontend, built with react.js + vite, uses styled-components, chart.js and axios for a complete and efficient financial management experience."
+          "title2": "TrackApp",
+          "description2": "Creation of a Web App for the creation and tracking of shipments using GPS devices. It allows user management, shipments, visualization in a shipment calendar, real-time visualization of shipments and log reporting. The frontend is developed in Next.js + Tailwind CSS (The deployment consists of local information without connection to a server or database)"
         },
         {
-          "title3": "TrackApp",
-          "description3": "Creation of a Web App for the creation and tracking of shipments using GPS devices. It allows user management, shipments, visualization in a shipment calendar, real-time visualization of shipments and log reporting. The frontend is developed in Next.js + Tailwind CSS (The deployment consists of local information without connection to a server or database)"
+          "title3": "Bonus Hunt Tracker",
+          "description3": "Web application to display real-time performance statistics on online slots. Developed in React + Vite with the use of a database in Supabase."
         },
         {
-          "title4": "Penta (Entrepreneurship)",
-          "description4": "Creation of Web App for monitoring, both statistical and logistical, for businesses, in principle, in the sports field. Developed in Next 14 complemented with a Ruby backend.."
+          "title4": "Money Manager",
+          "description4": "Financial management web app that provides detailed expense tracking, income recording and graphical data visualization. The backend, developed with Supabase. The frontend, built with react.js + vite, uses styled-components, chart.js and axios for a complete and efficient financial management experience."
+        },
+        {
+          "title5": "Penta (Entrepreneurship)",
+          "description5": "Creation of Web App for monitoring, both statistical and logistical, for businesses, in principle, in the sports field. Developed in Next 14 complemented with a Ruby backend.."
         }
       ],
       "others": [
@@ -118,7 +122,7 @@
     },
     "projects": {
       "title": "Experiencias",
-      "introduction": "Permíteme presentarte una muestra de mis trabajos, proyectos y otras prácticas. En mi trayectoria, he desarrollado aplicaciones web como Milenium Gym, que ofrece gestión de usuarios, rutinas y planes nutricionales. También he actualizado el diseño web de Palomba Bienes Raices en WordPress. Además, he trabajado en Handshape Dataset, una biblioteca de Python para procesamiento de imágenes de lengua de señas. En el ámbito de proyectos, destaco Bonus Hunt Tracker, una app web para realizar seguimiento y obtener estadisticas de bonus en slots online, así como tambien Money Manager, una app para el manejo y gestión de ingresos/gastos, con visualización gráfica de balance. Actualmente estoy trabajando en un emprendimiento personal junto a un equipo, en el desarrollo de una App para gestión de negocios, en principio, orientados al ámbito deportivo/gimnasios. También he realizado diversas prácticas en mi repositorio de Github, utilizando frameworks y lenguajes como React.Js, Node.Js, Javascript y Python. ¡Explora y descubre más sobre mi trabajo!",
+      "introduction": "Permíteme presentarte una muestra de mis trabajos, proyectos y otras prácticas. En mi trayectoria, he desarrollado aplicaciones web como Milenium Gym, que ofrece gestión de usuarios, rutinas y planes nutricionales. También he actualizado el diseño web de Palomba Bienes Raices en WordPress. Además, he trabajado en Handshape Dataset, una biblioteca de Python para procesamiento de imágenes de lengua de señas. En el ámbito de proyectos, destaco Filmbook, una red social combinación entre X y Letterboxd, así como tambien TrackApp, una app web para realizar seguimiento, programar y obtener estadisticas de envíos a partir de localización GPS. Actualmente estoy trabajando en un emprendimiento personal junto a un equipo, en el desarrollo de una App para gestión de negocios, en principio, orientados al ámbito deportivo/gimnasios. También he realizado diversas prácticas en mi repositorio de Github, utilizando frameworks y lenguajes como React.Js, Node.Js, Javascript y Python. ¡Explora y descubre más sobre mi trabajo!",
       "gitHub": "Mi Calendario de Commits de GitHub",
       "tabOne": "Trabajos",
       "tabTwo": "Proyectos",
@@ -139,20 +143,24 @@
       ],
       "projects": [
         {
-          "title1": "Bonus Hunt Tracker",
-          "description1": "Aplicación web para mostrar estadísticas en tiempo real de performance en slots online. Desarrollada en React + Vite con utilización de base de datos en Supabase."
+          "title1": "Filmbook",
+          "description1": "Desarrollo de una red social que mezcla características de X y Letterboxd para compartir y reseñar películas. Construido con Next.js, Prisma, Lucia Auth, React Query, Typescript y Tailwind CSS. Actualmente en desarrollo, basado en una estructura original de Coding In Flow, con mejoras para incorporar la parte de Letterboxd."
         },
         {
-          "title2": "Gestor Financiero",
-          "description2": "App web de gestión financiera que brinda seguimiento detallado de gastos, registro de ingresos, y visualización gráfica de datos. El backend, desarrollado con Supabase. El frontend, creado con react.js + vite, utiliza styled-components, chart.js y axios para una experiencia completa y eficiente de gestión financiera."
+          "title2": "TrackApp",
+          "description2": "Creación de App Web para creación y seguimiento de envíos mediante dispositivos GPS. Permite manejo de usuarios, envíos, visualización en calendario de envíos, visualización en tiempo real de envíos y reporte de registros. El frontend está desarrollado en Next.js + Tailwind CSS. (El deploy consta con información local sin conexión a servidor ni base de datos)"
         },
         {
-          "title3": "TrackApp",
-          "description3": "Creación de App Web para creación y seguimiento de envíos mediante dispositivos GPS. Permite manejo de usuarios, envíos, visualización en calendario de envíos, visualización en tiempo real de envíos y reporte de registros. El frontend está desarrollado en Next.js + Tailwind CSS. (El deploy consta con información local sin conexión a servidor ni base de datos)"
+          "title3": "Bonus Hunt Tracker",
+          "description3": "Aplicación web para mostrar estadísticas en tiempo real de performance en slots online. Desarrollada en React + Vite con utilización de base de datos en Supabase."
         },
         {
-          "title4": "Penta (Emprendimiento)",
-          "description4": "Creación de App Web para seguimiento, tanto estadístico como logístico, para negocios, en principio, del ambito deportivo. Desarrolado en Next 14 complementado con un backend en Ruby."
+          "title4": "Gestor Financiero",
+          "description4": "App web de gestión financiera que brinda seguimiento detallado de gastos, registro de ingresos, y visualización gráfica de datos. El backend, desarrollado con Supabase. El frontend, creado con react.js + vite, utiliza styled-components, chart.js y axios para una experiencia completa y eficiente de gestión financiera."
+        },
+        {
+          "title5": "Penta (Emprendimiento)",
+          "description5": "Creación de App Web para seguimiento, tanto estadístico como logístico, para negocios, en principio, del ambito deportivo. Desarrolado en Next 14 complementado con un backend en Ruby."
         }
       ],
       "others": [
