@@ -55,26 +55,26 @@
           "description2": "Creation of a Web App for the creation and tracking of shipments using GPS devices. It allows user management, shipments, visualization in a shipment calendar, real-time visualization of shipments and log reporting. The frontend is developed in Next.js + Tailwind CSS (The deployment consists of local information without connection to a server or database)"
         },
         {
-          "title3": "Karvi Challenge",
-          "description3": "Challenge to develop a car catalog page with advanced filters and adaptive views (grid or list on mobile). Includes temporary favorites, pagination with 12 items per page, and an additional page to display favorite cars. Developed using Next.js, Shadcn, TypeScript, Tailwind CSS and Jest for unit testing."
+          "title3": "Bonus Hunt Tracker",
+          "description3": "Web application to display real-time performance statistics on online slots. Developed in React + Vite with the use of a database in Supabase."
         },
         {
-          "title4": "Bonus Hunt Tracker",
-          "description4": "Web application to display real-time performance statistics on online slots. Developed in React + Vite with the use of a database in Supabase."
+          "title4": "Money Manager",
+          "description4": "Financial management web app that provides detailed expense tracking, income recording and graphical data visualization. The backend, developed with Supabase. The frontend, built with react.js + vite, uses styled-components, chart.js and axios for a complete and efficient financial management experience."
         },
         {
-          "title5": "Money Manager",
-          "description5": "Financial management web app that provides detailed expense tracking, income recording and graphical data visualization. The backend, developed with Supabase. The frontend, built with react.js + vite, uses styled-components, chart.js and axios for a complete and efficient financial management experience."
-        },
-        {
-          "title6": "Penta (Entrepreneurship)",
-          "description6": "Creation of Web App for monitoring, both statistical and logistical, for businesses, in principle, in the sports field. Developed in Next 14 complemented with a Ruby backend.."
+          "title5": "Penta (Entrepreneurship)",
+          "description5": "Creation of Web App for monitoring, both statistical and logistical, for businesses, in principle, in the sports field. Developed in Next 14 complemented with a Ruby backend.."
         }
       ],
       "others": [
         {
           "title1": "Others projects - Github",
           "description1": "Various projects in practice mode, using frameworks/languages ​​such as Next.Js, React.Js, Node.Js, Javascript, among others."
+        },
+        {
+          "title2": "Karvi Challenge",
+          "description2": "Challenge to develop a car catalog page with advanced filters and adaptive views (grid or list on mobile). Includes temporary favorites, pagination with 12 items per page, and an additional page to display favorite cars. Developed using Next.js, Shadcn, TypeScript, Tailwind CSS and Jest for unit testing."
         }
       ]
     },
@@ -155,26 +155,26 @@
           "description2": "Creación de App Web para creación y seguimiento de envíos mediante dispositivos GPS. Permite manejo de usuarios, envíos, visualización en calendario de envíos, visualización en tiempo real de envíos y reporte de registros. El frontend está desarrollado en Next.js + Tailwind CSS. (El deploy consta con información local sin conexión a servidor ni base de datos)"
         },
         {
-          "title3": "Karvi Challenge",
-          "description3": "Challenge para desarrollar una página de catálogo de autos con filtros avanzados y vistas adaptativas (cuadrícula o lista en mobile). Incluye favoritos temporales, paginación con 12 elementos por página y una página adicional para mostrar autos favoritos. Se desarrolló utilizando Next.js, Shadcn, TypeScript, Tailwind CSS y Jest para test unitarios."
+          "title3": "Bonus Hunt Tracker",
+          "description3": "Aplicación web para mostrar estadísticas en tiempo real de performance en slots online. Desarrollada en React + Vite con utilización de base de datos en Supabase."
         },
         {
-          "title4": "Bonus Hunt Tracker",
-          "description4": "Aplicación web para mostrar estadísticas en tiempo real de performance en slots online. Desarrollada en React + Vite con utilización de base de datos en Supabase."
+          "title4": "Gestor Financiero",
+          "description4": "App web de gestión financiera que brinda seguimiento detallado de gastos, registro de ingresos, y visualización gráfica de datos. El backend, desarrollado con Supabase. El frontend, creado con react.js + vite, utiliza styled-components, chart.js y axios para una experiencia completa y eficiente de gestión financiera."
         },
         {
-          "title5": "Gestor Financiero",
-          "description5": "App web de gestión financiera que brinda seguimiento detallado de gastos, registro de ingresos, y visualización gráfica de datos. El backend, desarrollado con Supabase. El frontend, creado con react.js + vite, utiliza styled-components, chart.js y axios para una experiencia completa y eficiente de gestión financiera."
-        },
-        {
-          "title6": "Penta (Emprendimiento)",
-          "description6": "Creación de App Web para seguimiento, tanto estadístico como logístico, para negocios, en principio, del ambito deportivo. Desarrolado en Next 14 complementado con un backend en Ruby."
+          "title5": "Penta (Emprendimiento)",
+          "description5": "Creación de App Web para seguimiento, tanto estadístico como logístico, para negocios, en principio, del ambito deportivo. Desarrolado en Next 14 complementado con un backend en Ruby."
         }
       ],
       "others": [
         {
           "title1": "Otras Prácticas - Github",
           "description1": "Diversos proyectos en modo de práctica, utilizando frameworks/lenguajes como por ejemplo Next.Js, React.Js, Node.Js, Javascript, entre otros."
+        },
+        {
+          "title2": "Karvi Challenge",
+          "description2": "Challenge para desarrollar una página de catálogo de autos con filtros avanzados y vistas adaptativas (cuadrícula o lista en mobile). Incluye favoritos temporales, paginación con 12 elementos por página y una página adicional para mostrar autos favoritos. Se desarrolló utilizando Next.js, Shadcn, TypeScript, Tailwind CSS y Jest para test unitarios."
         }
       ]
     },

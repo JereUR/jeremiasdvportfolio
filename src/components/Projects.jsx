@@ -5,13 +5,13 @@ import TrackVisibility from 'react-on-screen'
 import projFilmbook from '../assets/img/project-filmbook.png'
 import projMilenium from '../assets/img/project-milenium.png'
 import projGestor from '../assets/img/project-money-manager.png'
-import projChallengeKarvi from '../assets/img/project-challenge-karvi.png'
 import projBonus from '../assets/img/project-bonusHuntTracker.png'
 import projTrackApp from '../assets/img/project-trackapp.png'
 import projPenta from '../assets/img/project-penta.png'
 import projPalomba from '../assets/img/project-palomba.png'
 import projHandshape from '../assets/img/project-handshape.png'
 import projGithub from '../assets/img/project-github.png'
+import projChallengeKarvi from '../assets/img/project-challenge-karvi.png'
 import ProjectCard from './ProjectCard'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 import GitHubCalendar from 'react-github-calendar'
@@ -54,24 +54,18 @@ const Projects = ({ languageLines, language }) => {
     {
       title: languageLines[language].projects.projects[2].title3,
       description: languageLines[language].projects.projects[2].description3,
-      imgUrl: projChallengeKarvi,
-      url: 'https://challenge-karvi-sooty.vercel.app/'
-    },
-    {
-      title: languageLines[language].projects.projects[3].title4,
-      description: languageLines[language].projects.projects[3].description4,
       imgUrl: projBonus,
       url: 'https://bonus-hunt-tracker.vercel.app/'
     },
     {
-      title: languageLines[language].projects.projects[4].title5,
-      description: languageLines[language].projects.projects[4].description5,
+      title: languageLines[language].projects.projects[3].title4,
+      description: languageLines[language].projects.projects[3].description4,
       imgUrl: projGestor,
       url: 'https://money-manager-supabase.vercel.app/'
     },
     {
-      title: languageLines[language].projects.projects[5].title6,
-      description: languageLines[language].projects.projects[5].description6,
+      title: languageLines[language].projects.projects[4].title5,
+      description: languageLines[language].projects.projects[4].description5,
       imgUrl: projPenta,
       url: 'https://github.com/JereUR/gym-app-frontend'
     }
@@ -83,6 +77,12 @@ const Projects = ({ languageLines, language }) => {
       description: languageLines[language].projects.others[0].description1,
       imgUrl: projGithub,
       url: 'https://github.com/JereUR'
+    },
+    {
+      title: languageLines[language].projects.others[1].title2,
+      description: languageLines[language].projects.others[1].description2,
+      imgUrl: projChallengeKarvi,
+      url: 'https://challenge-karvi-sooty.vercel.app/'
     }
   ]
 
