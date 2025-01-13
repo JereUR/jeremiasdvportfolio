@@ -100,10 +100,10 @@ const Projects = ({ languageLines, language }) => {
                 >
                   <h2>{languageLines[language].projects.title}</h2>
                   <p>{languageLines[language].projects.introduction}</p>
-                  {/*<div className="commit-calendar">
+                  <div className="commit-calendar">
                     <p>{languageLines[language].projects.gitHub}</p>
                     <GitHubCalendar username="JereUR" />
-                  </div>*/}
+                  </div>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
