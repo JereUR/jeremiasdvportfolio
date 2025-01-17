@@ -48,26 +48,26 @@ const Projects = ({ languageLines, language }) => {
     {
       title: languageLines[language].projects.projects[1].title2,
       description: languageLines[language].projects.projects[1].description2,
-      imgUrl: projTrackApp,
-      url: 'https://trackapp-delta.vercel.app/'
+      imgUrl: projPenta,
+      url: 'https://github.com/JereUR/pentafit'
     },
     {
       title: languageLines[language].projects.projects[2].title3,
       description: languageLines[language].projects.projects[2].description3,
-      imgUrl: projBonus,
-      url: 'https://bonus-hunt-tracker.vercel.app/'
+      imgUrl: projTrackApp,
+      url: 'https://trackapp-delta.vercel.app/'
     },
     {
       title: languageLines[language].projects.projects[3].title4,
       description: languageLines[language].projects.projects[3].description4,
-      imgUrl: projGestor,
-      url: 'https://money-manager-supabase.vercel.app/'
+      imgUrl: projBonus,
+      url: 'https://bonus-hunt-tracker.vercel.app/'
     },
     {
       title: languageLines[language].projects.projects[4].title5,
       description: languageLines[language].projects.projects[4].description5,
-      imgUrl: projPenta,
-      url: 'https://github.com/JereUR/gym-app-frontend'
+      imgUrl: projGestor,
+      url: 'https://money-manager-supabase.vercel.app/'
     }
   ]
 

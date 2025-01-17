@@ -51,20 +51,20 @@
           "description1": "Development of a social network that mixes features of X and Letterboxd to share and review movies. Built with Next.js, Prisma, Lucia Auth, React Query, Typescript and Tailwind CSS. Currently in development, based on an original Coding In framework Flow, with improvements to incorporate the Letterboxd part."
         },
         {
-          "title2": "TrackApp",
-          "description2": "Creation of a Web App for the creation and tracking of shipments using GPS devices. It allows user management, shipments, visualization in a shipment calendar, real-time visualization of shipments and log reporting. The frontend is developed in Next.js + Tailwind CSS (The deployment consists of local information without connection to a server or database)"
+          "title2": "Penta (Entrepreneurship)",
+          "description2": "Creation of Web App for monitoring, both statistical and logistical, for businesses, in principle, in the sports field. Developed at Next 15 complemented by Prisma at Vercel Storage."
         },
         {
-          "title3": "Bonus Hunt Tracker",
-          "description3": "Web application to display real-time performance statistics on online slots. Developed in React + Vite with the use of a database in Supabase."
+          "title3": "TrackApp",
+          "description3": "Creation of a Web App for the creation and tracking of shipments using GPS devices. It allows user management, shipments, visualization in a shipment calendar, real-time visualization of shipments and log reporting. The frontend is developed in Next.js + Tailwind CSS (The deployment consists of local information without connection to a server or database)"
         },
         {
-          "title4": "Money Manager",
-          "description4": "Financial management web app that provides detailed expense tracking, income recording and graphical data visualization. The backend, developed with Supabase. The frontend, built with react.js + vite, uses styled-components, chart.js and axios for a complete and efficient financial management experience."
+          "title4": "Bonus Hunt Tracker",
+          "description4": "Web application to display real-time performance statistics on online slots. Developed in React + Vite with the use of a database in Supabase."
         },
         {
-          "title5": "Penta (Entrepreneurship)",
-          "description5": "Creation of Web App for monitoring, both statistical and logistical, for businesses, in principle, in the sports field. Developed in Next 14 complemented with a Ruby backend.."
+          "title5": "Money Manager",
+          "description5": "Financial management web app that provides detailed expense tracking, income recording and graphical data visualization. The backend, developed with Supabase. The frontend, built with react.js + vite, uses styled-components, chart.js and axios for a complete and efficient financial management experience."
         }
       ],
       "others": [
@@ -151,20 +151,20 @@
           "description1": "Desarrollo de una red social que mezcla características de X y Letterboxd para compartir y reseñar películas. Construido con Next.js, Prisma, Lucia Auth, React Query, Typescript y Tailwind CSS. Actualmente en desarrollo, basado en una estructura original de Coding In Flow, con mejoras para incorporar la parte de Letterboxd."
         },
         {
-          "title2": "TrackApp",
-          "description2": "Creación de App Web para creación y seguimiento de envíos mediante dispositivos GPS. Permite manejo de usuarios, envíos, visualización en calendario de envíos, visualización en tiempo real de envíos y reporte de registros. El frontend está desarrollado en Next.js + Tailwind CSS. (El deploy consta con información local sin conexión a servidor ni base de datos)"
+          "title2": "Penta (Emprendimiento)",
+          "description2": "Creación de App Web para seguimiento, tanto estadístico como logístico, para negocios, en principio, del ambito deportivo. Desarrolado en Next 15 complementado con Prisma en Vercel Storage."
         },
         {
-          "title3": "Bonus Hunt Tracker",
-          "description3": "Aplicación web para mostrar estadísticas en tiempo real de performance en slots online. Desarrollada en React + Vite con utilización de base de datos en Supabase."
+          "title3": "TrackApp",
+          "description3": "Creación de App Web para creación y seguimiento de envíos mediante dispositivos GPS. Permite manejo de usuarios, envíos, visualización en calendario de envíos, visualización en tiempo real de envíos y reporte de registros. El frontend está desarrollado en Next.js + Tailwind CSS. (El deploy consta con información local sin conexión a servidor ni base de datos)"
         },
         {
-          "title4": "Gestor Financiero",
-          "description4": "App web de gestión financiera que brinda seguimiento detallado de gastos, registro de ingresos, y visualización gráfica de datos. El backend, desarrollado con Supabase. El frontend, creado con react.js + vite, utiliza styled-components, chart.js y axios para una experiencia completa y eficiente de gestión financiera."
+          "title4": "Bonus Hunt Tracker",
+          "description4": "Aplicación web para mostrar estadísticas en tiempo real de performance en slots online. Desarrollada en React + Vite con utilización de base de datos en Supabase."
         },
         {
-          "title5": "Penta (Emprendimiento)",
-          "description5": "Creación de App Web para seguimiento, tanto estadístico como logístico, para negocios, en principio, del ambito deportivo. Desarrolado en Next 14 complementado con un backend en Ruby."
+          "title5": "Gestor Financiero",
+          "description5": "App web de gestión financiera que brinda seguimiento detallado de gastos, registro de ingresos, y visualización gráfica de datos. El backend, desarrollado con Supabase. El frontend, creado con react.js + vite, utiliza styled-components, chart.js y axios para una experiencia completa y eficiente de gestión financiera."
         }
       ],
       "others": [
