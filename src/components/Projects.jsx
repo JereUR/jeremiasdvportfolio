@@ -49,7 +49,7 @@ const Projects = ({ languageLines, language }) => {
       title: languageLines[language].projects.projects[1].title2,
       description: languageLines[language].projects.projects[1].description2,
       imgUrl: projPenta,
-      url: 'https://github.com/JereUR/pentafit'
+      url: 'https://pentafit.vercel.app/'
     },
     {
       title: languageLines[language].projects.projects[2].title3,
